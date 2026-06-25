@@ -1,0 +1,44 @@
+{
+  "lockedUser": {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "errorMessage":"Epic sadface: Sorry, this user has been locked out."
+  },
+
+  "invalidPassword": {
+    "username": "standard_user",
+    "password": "wrong_password"
+  },
+
+  "invalidUser": {
+    "username": "wrong_user",
+    "password": "secret_sauce"
+  },
+
+  "emptyUsername": {
+    "username": "",
+    "password": "secret_sauce"
+  },
+
+  "emptyPassword": {
+    "username": "standard_user",
+    "password": ""
+  },
+
+  "problem_user": {
+    "username": "problem_user",
+    "password": "secret_sauce"
+  },
+  "performance_glitch_user": {
+    "username": "performance_glitch_user",
+    "password": "secret_sauce"
+  },
+  "error_user": {
+    "username": "error_user",
+    "password": "secret_sauce"
+  },
+  "visual_user": {
+    "username": "visual_user",
+    "password": "secret_sauce"
+  }
+}
