@@ -22,4 +22,10 @@ export class Login_page {
   async Vrifytheerror(errorMessage) {
     await expect(this.errormessage).toHaveText(errorMessage);
   }
+
+  async verify_home_Page() {
+    await expect(this.page).toHaveURL(
+      "https://www.saucedemo.com/inventory.html",
+    );
+  }
 }
